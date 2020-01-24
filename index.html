@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="number.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2>Number Practice</h2>
+    </header>
+    <form>
+        First Number: 
+        <input type="text" id="first">
+        Second Number: 
+        <input type="text" id="second"> 
+        Third Number: 
+        <input type="text" id="third">
+    </form> 
+    <form>
+        Fourth Number: 
+        <input type="text" id="fourth"> 
+        Fifth Number: 
+        <input type="text" id="fifth"> 
+        Sixth Number: 
+        <input type="text" id="sixth"> 
+    </form>
+
+    <article>
+        <button name="submit" type="button" onclick="order()" required> Order(Least - Greatest) </button>
+        <button name="submit" type="button" onclick="middle()" required> Middle </button>
+        <button name="submit" type="button" onclick="largest()" required> Largest Number </button>
+        <button name="submit" type="button" onclick="smallest()" required> Smallest Number </button>
+        <button name="submit" type="button" onclick="mean()" required> Mean </button>
+        <button name="submit" type="button" onclick="mode()" required> Mode </button>
+        <button name="submit" type="button" onclick="range()" required> Range </button>
+        <button name="submit" type="button" onclick="duplicate()" required> Duplicate </button>
+        <button name="submit" type="button" onclick="unique()" required> Unique </button>
+
+        <p id="output">Output: </p><br/>
+    </article>
+</body>
+</html>
