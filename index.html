@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+    Author: Beckham Le
+    Date: 1/26/20
+-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +16,7 @@
     <header>
         <h2>Number Practice</h2>
     </header>
+    <!--Number Input Section-->
     <form>
         First Number: 
         <input type="text" id="first">
@@ -29,18 +34,24 @@
         <input type="text" id="sixth"> 
     </form>
 
-    <article>
+    <!--Output Section (where answer is displayed)-->
+    <p id="output">Output: </p><br/>
+
+    <!--Button Section-->
+    <section>
         <button name="submit" type="button" onclick="order()" required> Order(Least - Greatest) </button>
         <button name="submit" type="button" onclick="middle()" required> Middle </button>
         <button name="submit" type="button" onclick="largest()" required> Largest Number </button>
         <button name="submit" type="button" onclick="smallest()" required> Smallest Number </button>
+    </section>
+
+    <article>
         <button name="submit" type="button" onclick="mean()" required> Mean </button>
         <button name="submit" type="button" onclick="mode()" required> Mode </button>
         <button name="submit" type="button" onclick="range()" required> Range </button>
         <button name="submit" type="button" onclick="duplicate()" required> Duplicate </button>
         <button name="submit" type="button" onclick="unique()" required> Unique </button>
-
-        <p id="output">Output: </p><br/>
     </article>
+
 </body>
 </html>

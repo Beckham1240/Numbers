@@ -1,62 +1,87 @@
 @charset "utf-8";
 
+/*HTML Styles*/
 html{
     height: 100%;
-    background-color: rgb(255, 178, 149);
+    background: linear-gradient(rgb(216, 132, 255) 40%, rgb(175, 46, 211) 60%);
 }
 
+/*Body and Heading Styles*/
 body{
-    width: 90%;
+    width: 80%;
     height: 90%;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid white;
-    background-color: rgb(255, 117, 140)
+    border-radius: 20px;
+    box-shadow: 10px 20px 20px black;
+    color: rgb(228, 116, 228);
+    background-color: rgb(103, 34, 160);
+}
+
+h2{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+/*Number Input Styles*/
+input{
+    margin-right: 40px;
 }
 
 form{
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid white;
     display: -webkit-flex;
     display: flex;
     -webkit-flew-flow: row wrap;
     flex-flow: row wrap; 
     justify-content: center;
-    font-size: 1.4em;
-    margin-top: 45px;
+    font-size: 1.8em;
+    margin-top: 70px;
 }
 
-article{
-    margin-top: 38px;
-    justify-content: center;
-}
-
+/*Output Styles*/
 p{
-    margin-top: 40px;
-    margin-left: 200px;
-    
+    margin-top: 6%;
+    margin-left: 12%;
+    padding-left: 20px;
+    font-size: 1.7em;
+    border-radius: 20px;
+    background-color: rgba(128, 41, 128, 0.966);
+    border: 5px solid rgb(73, 13, 73);
+    width: 75%;
+    height: 25%;
 }
 
-input{
-    margin-right: 40px;
+/*Button Styles*/
+article{
+   margin-top: 0.5%;
+   padding-left: 28%; 
+}
+
+section{
+    margin-top: 1%;
+    padding-left: 20%; 
 }
 
 button{
-    background-color: rgb(211, 142, 211);
+    background-color: rgb(228, 116, 228);
+    color: rgb(105, 15, 105);
     font-size: medium;
     margin: 10px;
     text-align: center;
     border-color: white;
     border-radius: 10px;
     padding: 10px;
+    font-size: 1.6em;
+    justify-content: center;
 }
 
-h2{
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid white;
-    text-align: center;
-    font-size: 1.8em;
+button:hover{
+    background-color: rgb(105, 15, 105);
+    color: rgb(228, 116, 228);
 }
-
